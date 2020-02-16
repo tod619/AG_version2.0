@@ -1,3 +1,8 @@
+:root {
+  /* Variables for color */
+  --primary-color: #36b3a8;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   background: pink;
@@ -24,6 +29,34 @@ body {
   border-bottom: 1px solid #fff;
 }
 
+/* Showcase */
+#showcase {
+  background: url("../img/main.jpeg") bottom center / cover no-repeat;
+  min-height: 750px;
+}
+
+#showcase h1 {
+  font-family: "Questrial", sans-serif;
+  line-height: 1;
+}
+
+#showcase h3 {
+  text-transform: uppercase;
+}
+
+#showcase #book-btn {
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  transition: opacity 0.2s;
+}
+
+#showcase #book-btn:hover {
+  opacity: 0.8;
+}
+
 /* Media Q */
 @media (max-width: 768px) {
   /* Navbar */
@@ -33,5 +66,14 @@ body {
 
   .main-nav .navbar-item:hover {
     border: none;
+  }
+
+  /* Showcase */
+  #showcase {
+    min-height: 500px;
+  }
+
+  #showcase h1 {
+    font-size: 4rem;
   }
 }
