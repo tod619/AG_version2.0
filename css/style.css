@@ -3,6 +3,34 @@ body {
 }
 
 /* Navbar */
-#navbar {
-  background: #000;
+.main-nav {
+  /* background: #000; */
+  font-weight: 100;
+}
+
+.main-nav .navbar-brand h3 {
+  font-weight: 100;
+}
+
+.main-nav .navbar-item {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  transition: border 0.5s;
+}
+
+/* Hover effect */
+.main-nav .navbar-item:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* Media Q */
+@media (max-width: 768px) {
+  /* Navbar */
+  .main-nav {
+    background: #1f1f1f;
+  }
+
+  .main-nav .navbar-item:hover {
+    border: none;
+  }
 }
