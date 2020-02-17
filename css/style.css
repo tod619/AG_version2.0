@@ -12,6 +12,10 @@ body {
   text-transform: uppercase;
 }
 
+.p-color {
+  color: var(--primary-color);
+}
+
 /* Navbar */
 .main-nav {
   /* background: #000; */
