@@ -5,7 +5,11 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background: pink;
+}
+
+/* Utilities */
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* Navbar */
