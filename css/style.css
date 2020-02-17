@@ -91,6 +91,16 @@ body {
   opacity: 0.3;
 }
 
+/* Carousel Section */
+#carousel-section a {
+  text-decoration: none;
+}
+
+#carousel-section a:hover {
+  color: var(--primary-color);
+  opacity: 0.4;
+}
+
 /* Media Q */
 @media (max-width: 768px) {
   /* Navbar */
