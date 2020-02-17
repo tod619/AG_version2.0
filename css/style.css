@@ -106,6 +106,17 @@ body {
   opacity: 0.3;
 }
 
+/* Form Section */
+#form-section .form-btn {
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+}
+
+#form-section .form-btn:hover {
+  opacity: 0.8;
+}
+
 /* Media Q */
 @media (max-width: 768px) {
   /* Navbar */
