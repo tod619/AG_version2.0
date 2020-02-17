@@ -1,6 +1,7 @@
 :root {
   /* Variables for color */
   --primary-color: #36b3a8;
+  --secondary-color: #1f1f1f;
 }
 
 body {
@@ -115,6 +116,12 @@ body {
 
 #form-section .form-btn:hover {
   opacity: 0.8;
+}
+
+/* Footer */
+#main-footer {
+  background-color: var(--secondary-color);
+  font-weight: 100;
 }
 
 /* Media Q */
