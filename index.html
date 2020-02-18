@@ -50,7 +50,13 @@
             <a href="#" class="nav-link">Contact</a>
           </li>
           <li class="navbar-item">
-            <a href="#" class="nav-link">Book</a>
+            <a
+              href="#"
+              class="nav-link"
+              data-toggle="modal"
+              data-target="#bookingModal"
+              >Book</a
+            >
           </li>
         </ul>
       </div>
@@ -69,7 +75,12 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
           officiis.
         </p>
-        <button id="book-btn" class="btn btn-lg btn-primary px-5">
+        <button
+          id="book-btn"
+          class="btn btn-lg btn-primary px-5"
+          data-toggle="modal"
+          data-target="#bookingModal"
+        >
           Book Now
         </button>
       </div>
@@ -448,10 +459,27 @@
           <a href="" class="nav-link text-white">CONTACT</a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link text-white">BOOK</a>
+          <a
+            href=""
+            class="nav-link text-white"
+            data-toggle="modal"
+            data-target="#bookingModal"
+            >BOOK</a
+          >
         </li>
       </ul>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="bookingModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title uppercase">new booking</h5>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Font Awesome Script -->
     <script
